@@ -42,4 +42,5 @@ debug
 TODO
 
 # Directus
-packages/
+# @TODO Readd packages when typedocs is working
+# packages/
