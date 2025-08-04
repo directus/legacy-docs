@@ -5,7 +5,7 @@
 	"type": "module",
 	"scripts": {
 		"build:packages": "echo '@TODO Need to checkout monorepo and build' || pnpm --recursive --filter '!docs' --filter '!api' --filter '!app' run build",
-		"build:typedocs": "echo '@TODO Typedocs not working' || typedoc --options ./.typedocs/options.json",
+		"build:typedocs": "echo '@TODO Typedocs not working' && typedoc --options ./.typedocs/options.json",
 		"build:docs": "vitepress build",
 		"build": "pnpm build:packages && pnpm build:typedocs && pnpm build:docs",
 		"dev": "pnpm build:typedocs && vitepress dev",
